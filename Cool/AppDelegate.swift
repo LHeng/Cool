@@ -17,10 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         window = UIWindow.init(frame: UIScreen.main.bounds)
+        
         window?.backgroundColor = UIColor.karColor.mainBGColor.color()
-        window?.rootViewController = UIStoryboard.init(name: "Login", bundle: Bundle.main).instantiateViewController(withIdentifier: "BaseNavigationViewController")
+        
+        window?.rootViewController = UIStoryboard.init(name: "Login", bundle:
+            Bundle.main).instantiateViewController(withIdentifier: "BaseNavigationViewController")
+        
         window?.makeKeyAndVisible()
+        
+        print("Application did finish launching")
+        
         return true
     }
 
