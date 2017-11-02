@@ -1,0 +1,26 @@
+PODS:
+  - Result (3.2.4)
+  - RFCircleCollectionViewFlowLayout (0.0.1)
+  - SDCycleScrollView (1.73):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SugarRecord/CoreData (3.1.2):
+    - Result (~> 3.0)
+
+DEPENDENCIES:
+  - RFCircleCollectionViewFlowLayout
+  - SDCycleScrollView
+  - SugarRecord/CoreData
+
+SPEC CHECKSUMS:
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RFCircleCollectionViewFlowLayout: c38f8051e3ac45c99c087d2e5abe92f9158d60d0
+  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SugarRecord: be6aa5c18b4a4dec0de4c1f49fc61c85eabb5328
+
+PODFILE CHECKSUM: b3b79b14054ffa2714da978f5131ad09b8d646d4
+
+COCOAPODS: 1.4.0.beta.1
