@@ -22,8 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.backgroundColor = UIColor.karColor.mainBGColor.color()
         
-        window?.rootViewController = UIStoryboard.init(name: "Login", bundle:
-            Bundle.main).instantiateViewController(withIdentifier: "BaseNavigationViewController")
+        window?.rootViewController = UIStoryboard.init(name: "Login", bundle:Bundle.main).instantiateViewController(withIdentifier: "BaseNavigationViewController")
         
         window?.makeKeyAndVisible()
         
