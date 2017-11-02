@@ -25,7 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UIStoryboard.init(name: "Login", bundle:Bundle.main).instantiateViewController(withIdentifier: "BaseNavigationViewController")
         
         window?.makeKeyAndVisible()
-                
+        
+        print("Application did finish launching")
+
         return true
     }
 
