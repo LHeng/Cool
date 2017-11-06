@@ -36,8 +36,6 @@ extension UIColor {
                 return UIColor.init(red: 32.0 / 255.0, green: 32.0 / 255.0, blue: 32.0 / 255.0, alpha: 1.0)
             case .karGray:
                 return UIColor.init(red: 129.0 / 255.0, green: 129.0 / 255.0, blue: 129.0 / 255.0, alpha: 1.0)
-            default: break
-            
             }
         }
 
@@ -52,7 +50,7 @@ extension UIColor {
         var cString: String = hexsring.trimmingCharacters(in: .whitespacesAndNewlines)
         
         
-        if cString.characters.count < 6 {return UIColor.black}
+        if cString.count < 6 {return UIColor.black}
         
         let index = cString.index(cString.endIndex, offsetBy: -6)
         
@@ -60,7 +58,7 @@ extension UIColor {
         
         if cString.hasPrefix("#") {cString = cString.substring(from: index)}
         
-        if cString.characters.count != 6 {return UIColor.black}
+        if cString.count != 6 {return UIColor.black}
         
         
         

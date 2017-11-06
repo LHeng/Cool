@@ -85,12 +85,12 @@ class LoginVC: BaseViewController {
 
 extension LoginVC : UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        if (range.length == 1 && string.characters.count == 0) {
+        if (range.length == 1 && string.count == 0) {
             return true
         } else if textField.tag == 0 {
-            return (textField.text?.characters.count)! < 11
+            return (textField.text?.count)! < 11
         } else if textField.tag == 1 {
-            return (textField.text?.characters.count)! < 20
+            return (textField.text?.count)! < 20
         }
         
         return true

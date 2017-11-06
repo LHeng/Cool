@@ -60,7 +60,7 @@ class ChatCell: UITableViewCell {
         
         let problemStr = String.init(format: "%@", "请给我讲个故事吧")
         let answerStr  = "山羊爷爷的白菜丰收了，请大家快点去帮山羊爷爷收白菜吧....."
-        if problemStr.characters.count > 0 {
+        if problemStr.count > 0 {
             let problemSize = NSString.init(string: problemStr).boundingRect(with: CGSize.init(width: kScreenWidth - 39 * 2, height: CGFloat(MAXFLOAT)),
                                                                             options: NSStringDrawingOptions.usesLineFragmentOrigin,
                                                                             attributes: [NSAttributedStringKey.font:problemFont],
@@ -68,7 +68,7 @@ class ChatCell: UITableViewCell {
             height = height + problemSize.height
         }
         
-        if answerStr.characters.count > 0 {
+        if answerStr.count > 0 {
             let answerSize = NSString.init(string: answerStr).boundingRect(with: CGSize.init(width: kScreenWidth - 100 - 48, height: CGFloat(MAXFLOAT)), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font:answerFont], context: nil).size
             
             if answerSize.height > 54 {

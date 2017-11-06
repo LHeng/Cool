@@ -10,6 +10,6 @@ import UIKit
 
 extension String {
     func isNotEmpty() -> Bool {
-        return self.characters.count > 0 ? true : false
+        return self.count > 0 ? true : false
     }
 }
