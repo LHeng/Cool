@@ -20,7 +20,6 @@ class LoginVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "登录"
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "icon_wifi")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), style: UIBarButtonItemStyle.plain, target: self, action: #selector(rightNaviAction(_:)))
         isNaviBackShow = false
       
      
@@ -32,10 +31,7 @@ class LoginVC: BaseViewController {
         accountT.text = user.name
         passwordT.text = user.password
     }
-    @objc func rightNaviAction(_ sender: UIBarButtonItem) {
-       
-    }
-    
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -95,6 +91,10 @@ extension LoginVC : UITextFieldDelegate {
         
         return true
 }
-
-
+    @IBAction func performUnwindSegue(segue: UIStoryboardSegue) {
+        if segue.identifier == RegisterVC.UnwindSuge {
+            accountT.text = (segue.source as! RegisterVC).accountT.text
+        }
+    }
+    
 }

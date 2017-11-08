@@ -16,12 +16,14 @@ let kScreenHeight : CGFloat  = UIScreen.main.bounds.size.height
 let kAppDelegate = UIApplication.shared.delegate as! AppDelegate
 let TabbarHeight =  UIApplication.shared.statusBarFrame.size.height > 20 ? 83 : 49
 let NaviHeight = UIApplication.shared.statusBarFrame.size.height > 20 ? CGFloat(84) : CGFloat(64)
+
 //StoryBoard about
 let MainSB      = UIStoryboard.init(name: "Main", bundle: Bundle.main)
 
-let DanceSB       = UIStoryboard.init(name: "Dance", bundle: Bundle.main)
+let DanceSB    = UIStoryboard.init(name: "Dance", bundle: Bundle.main)
 
-let ChatSB    = UIStoryboard.init(name: "Chat", bundle: Bundle.main)
+let ChatSB      = UIStoryboard.init(name: "Chat", bundle: Bundle.main)
 
-let MeSB      = UIStoryboard.init(name: "Me", bundle: Bundle.main)
+let MeSB        = UIStoryboard.init(name: "Me", bundle: Bundle.main)
 
+let LoginSB    = UIStoryboard.init(name: "Login", bundle: Bundle.main)

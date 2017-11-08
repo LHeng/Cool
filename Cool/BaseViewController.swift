@@ -39,7 +39,7 @@ class BaseViewController: UIViewController {
     
     func configureNaviBackBarItem() {
         baseBackBtn = UIBarButtonItem.init(title: "", style: UIBarButtonItemStyle.plain, target: self, action: #selector(naviBackAction))
-        baseBackBtn.image = UIImage.init(named: "icon_back")
+        baseBackBtn.image = UIImage.init(named: "icon_back")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         let spacer : UIBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
         self.navigationItem.leftBarButtonItems = [spacer,baseBackBtn]
     }

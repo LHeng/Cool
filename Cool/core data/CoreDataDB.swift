@@ -29,6 +29,7 @@ class CoreDataDB: NSObject {
                     if name.isNotEmpty() {
                         item.name = name
                     }
+                    password.count
                     if  password.isNotEmpty() {
                         item.password = password
                     }
@@ -47,7 +48,6 @@ class CoreDataDB: NSObject {
             })
         }
     }
-    
 }
 
 

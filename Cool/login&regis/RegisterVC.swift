@@ -15,6 +15,7 @@ enum RegisterType {
 }
 class RegisterVC: BaseViewController {
     
+    static let  UnwindSuge = "RegisterVC"
     @IBOutlet weak var accountT: UITextField!
     
     @IBOutlet weak var codeT: UITextField!
@@ -53,8 +54,6 @@ class RegisterVC: BaseViewController {
                 accountT.text = user.name
             }
         }
-        isNaviBackShow = false
-      
         // Do any additional setup after loading the view.
     }
 
@@ -79,10 +78,7 @@ class RegisterVC: BaseViewController {
             }
             break
         case 2:
-            self.navigationController?.popViewController(animated: true)
-            break
-        case 3:
-            self.navigationController?.popViewController(animated: true)
+           
             break
         default:
             break

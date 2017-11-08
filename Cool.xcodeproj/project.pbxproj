@@ -36,6 +36,14 @@
 		7E539FD81F9F0B8F00FF82B6 /* DanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FD71F9F0B8F00FF82B6 /* DanceVC.swift */; };
 		7E539FDA1F9F0BA600FF82B6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FD91F9F0BA600FF82B6 /* ChatVC.swift */; };
 		7E539FDC1F9F0BB500FF82B6 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FDB1F9F0BB500FF82B6 /* MeVC.swift */; };
+		7E5778FE1FB1A10900272F99 /* BindingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5778FD1FB1A10900272F99 /* BindingFirstVC.swift */; };
+		7E5779001FB1A15500272F99 /* BindingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5778FF1FB1A15500272F99 /* BindingSecondVC.swift */; };
+		7E5779021FB1A16C00272F99 /* BindingThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5779011FB1A16C00272F99 /* BindingThirdVC.swift */; };
+		7E5779041FB1A24600272F99 /* BindingFourth1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5779031FB1A24600272F99 /* BindingFourth1VC.swift */; };
+		7E5779061FB1A27E00272F99 /* BindingFourth2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5779051FB1A27E00272F99 /* BindingFourth2VC.swift */; };
+		7E5779081FB1A29000272F99 /* BindingFourth3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5779071FB1A29000272F99 /* BindingFourth3VC.swift */; };
+		7E57790A1FB1A3C300272F99 /* BindingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5779091FB1A3C300272F99 /* BindingVC.swift */; };
+		7E57790C1FB1A42800272F99 /* BindingDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57790B1FB1A42800272F99 /* BindingDeviceVC.swift */; };
 		7E58F26F1FA2FE170022D0CF /* FacilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F26E1FA2FE170022D0CF /* FacilityVC.swift */; };
 		7E58F2761FA308C00022D0CF /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F2751FA308480022D0CF /* MainTabBarVC.swift */; };
 		7E58F2781FA31C490022D0CF /* MyPagecontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F2771FA31C480022D0CF /* MyPagecontrol.swift */; };
@@ -82,6 +90,14 @@
 		7E539FD71F9F0B8F00FF82B6 /* DanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceVC.swift; sourceTree = "<group>"; };
 		7E539FD91F9F0BA600FF82B6 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		7E539FDB1F9F0BB500FF82B6 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		7E5778FD1FB1A10900272F99 /* BindingFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingFirstVC.swift; sourceTree = "<group>"; };
+		7E5778FF1FB1A15500272F99 /* BindingSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingSecondVC.swift; sourceTree = "<group>"; };
+		7E5779011FB1A16C00272F99 /* BindingThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingThirdVC.swift; sourceTree = "<group>"; };
+		7E5779031FB1A24600272F99 /* BindingFourth1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingFourth1VC.swift; sourceTree = "<group>"; };
+		7E5779051FB1A27E00272F99 /* BindingFourth2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingFourth2VC.swift; sourceTree = "<group>"; };
+		7E5779071FB1A29000272F99 /* BindingFourth3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingFourth3VC.swift; sourceTree = "<group>"; };
+		7E5779091FB1A3C300272F99 /* BindingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingVC.swift; sourceTree = "<group>"; };
+		7E57790B1FB1A42800272F99 /* BindingDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingDeviceVC.swift; sourceTree = "<group>"; };
 		7E58F26E1FA2FE170022D0CF /* FacilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityVC.swift; sourceTree = "<group>"; };
 		7E58F2741FA308480022D0CF /* Cool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cool-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E58F2751FA308480022D0CF /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
@@ -153,6 +169,7 @@
 		7E35E74F1F9DB82C00935E83 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				7E5778FC1FB19EB900272F99 /* binding */,
 				7E539FD11F9F0AD800FF82B6 /* main */,
 				7E539FD21F9F0AF000FF82B6 /* dance */,
 				7E539FD31F9F0AFD00FF82B6 /* chat */,
@@ -220,6 +237,21 @@
 				7E4DF0EC1FA848F20041A997 /* MeCell.swift */,
 			);
 			path = me;
+			sourceTree = "<group>";
+		};
+		7E5778FC1FB19EB900272F99 /* binding */ = {
+			isa = PBXGroup;
+			children = (
+				7E5779091FB1A3C300272F99 /* BindingVC.swift */,
+				7E5778FD1FB1A10900272F99 /* BindingFirstVC.swift */,
+				7E5778FF1FB1A15500272F99 /* BindingSecondVC.swift */,
+				7E5779011FB1A16C00272F99 /* BindingThirdVC.swift */,
+				7E5779031FB1A24600272F99 /* BindingFourth1VC.swift */,
+				7E5779051FB1A27E00272F99 /* BindingFourth2VC.swift */,
+				7E5779071FB1A29000272F99 /* BindingFourth3VC.swift */,
+				7E57790B1FB1A42800272F99 /* BindingDeviceVC.swift */,
+			);
+			path = binding;
 			sourceTree = "<group>";
 		};
 		7E58F2731FA308480022D0CF /* tabbarVC */ = {
@@ -448,10 +480,13 @@
 				7E717B881FA6C1E7009F6935 /* RMDBannerCell.swift in Sources */,
 				7E717B931FA6FE33009F6935 /* ChatCell.swift in Sources */,
 				7E0EF1711F9AD62800D0C625 /* Cool.xcdatamodeld in Sources */,
+				7E5778FE1FB1A10900272F99 /* BindingFirstVC.swift in Sources */,
 				7E35E74C1F9D862A00935E83 /* LoginVC.swift in Sources */,
+				7E5779061FB1A27E00272F99 /* BindingFourth2VC.swift in Sources */,
 				7E4DF0ED1FA848F20041A997 /* MeCell.swift in Sources */,
 				7E35E75E1F9DE07E00935E83 /* UIImage+Category.swift in Sources */,
 				7E35E74A1F9D85EC00935E83 /* BaseDefine.swift in Sources */,
+				7E5779041FB1A24600272F99 /* BindingFourth1VC.swift in Sources */,
 				7E717B8A1FA6C227009F6935 /* RMDClassicCell.swift in Sources */,
 				7E0EF16B1F9AD62800D0C625 /* ViewController.swift in Sources */,
 				7E35E7601F9DE28000935E83 /* UIView+Category.swift in Sources */,
@@ -459,16 +494,21 @@
 				7E35E7451F9D836B00935E83 /* BaseNavigationViewController.swift in Sources */,
 				7E539FCE1F9EE36100FF82B6 /* HistoryVC.swift in Sources */,
 				7E539FCC1F9EE34F00FF82B6 /* CollectVC.swift in Sources */,
+				7E5779001FB1A15500272F99 /* BindingSecondVC.swift in Sources */,
 				7E35E74E1F9D8FAB00935E83 /* RegisterVC.swift in Sources */,
 				7E539FD01F9EE4EB00FF82B6 /* SearchVC.swift in Sources */,
 				7E717B8E1FA6C286009F6935 /* RMDHotCell.swift in Sources */,
+				7E5779081FB1A29000272F99 /* BindingFourth3VC.swift in Sources */,
 				7E4BF93C1FA17857007E6824 /* String+Category.swift in Sources */,
 				7E539FDA1F9F0BA600FF82B6 /* ChatVC.swift in Sources */,
+				7E57790C1FB1A42800272F99 /* BindingDeviceVC.swift in Sources */,
 				7E539FCA1F9EE33500FF82B6 /* RecommendVC.swift in Sources */,
 				7E539FDC1F9F0BB500FF82B6 /* MeVC.swift in Sources */,
 				7E0EF1691F9AD62800D0C625 /* AppDelegate.swift in Sources */,
 				7E35E7471F9D838800935E83 /* BaseViewController.swift in Sources */,
 				7E539FD61F9F0B7B00FF82B6 /* MianVC.swift in Sources */,
+				7E5779021FB1A16C00272F99 /* BindingThirdVC.swift in Sources */,
+				7E57790A1FB1A3C300272F99 /* BindingVC.swift in Sources */,
 				7E717B8C1FA6C25C009F6935 /* RMDClassicColletionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
