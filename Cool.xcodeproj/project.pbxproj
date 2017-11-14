@@ -26,8 +26,15 @@
 		7E35E75C1F9DD88500935E83 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35E75B1F9DD88500935E83 /* Me.storyboard */; };
 		7E35E75E1F9DE07E00935E83 /* UIImage+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35E75D1F9DE07E00935E83 /* UIImage+Category.swift */; };
 		7E35E7601F9DE28000935E83 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35E75F1F9DE28000935E83 /* UIView+Category.swift */; };
+		7E3E7ADD1FB3EA850041CDA2 /* MeMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7ADC1FB3EA850041CDA2 /* MeMessageVC.swift */; };
+		7E3E7ADF1FB3EF990041CDA2 /* MeMessageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7ADE1FB3EF980041CDA2 /* MeMessageHeaderCell.swift */; };
+		7E3E7AE11FB3EFC90041CDA2 /* MeMessageListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7AE01FB3EFC90041CDA2 /* MeMessageListCell.swift */; };
+		7E3E7AE31FB3FA330041CDA2 /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7AE21FB3FA330041CDA2 /* AboutAppVC.swift */; };
+		7E3E7AE51FB44E5C0041CDA2 /* LHUIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7AE41FB44E5C0041CDA2 /* LHUIAlertController.swift */; };
 		7E4BF93C1FA17857007E6824 /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BF93B1FA17857007E6824 /* String+Category.swift */; };
 		7E4DF0ED1FA848F20041A997 /* MeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4DF0EC1FA848F20041A997 /* MeCell.swift */; };
+		7E5229071FB2AE0600B3B06C /* RecommendSubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5229061FB2AE0600B3B06C /* RecommendSubVC.swift */; };
+		7E5229091FB2AE4100B3B06C /* RecommendSubDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5229081FB2AE4100B3B06C /* RecommendSubDetailVC.swift */; };
 		7E539FCA1F9EE33500FF82B6 /* RecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FC91F9EE33500FF82B6 /* RecommendVC.swift */; };
 		7E539FCC1F9EE34F00FF82B6 /* CollectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FCB1F9EE34F00FF82B6 /* CollectVC.swift */; };
 		7E539FCE1F9EE36100FF82B6 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FCD1F9EE36100FF82B6 /* HistoryVC.swift */; };
@@ -36,6 +43,9 @@
 		7E539FD81F9F0B8F00FF82B6 /* DanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FD71F9F0B8F00FF82B6 /* DanceVC.swift */; };
 		7E539FDA1F9F0BA600FF82B6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FD91F9F0BA600FF82B6 /* ChatVC.swift */; };
 		7E539FDC1F9F0BB500FF82B6 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E539FDB1F9F0BB500FF82B6 /* MeVC.swift */; };
+		7E546C541FBA9CD400857E78 /* LoginOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E546C531FBA9CD400857E78 /* LoginOutView.swift */; };
+		7E546C561FBA9CE700857E78 /* LoginOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E546C551FBA9CE700857E78 /* LoginOutView.xib */; };
+		7E54E3771FBABC44003BB942 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E54E3761FBABC44003BB942 /* Macros.swift */; };
 		7E5778FE1FB1A10900272F99 /* BindingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5778FD1FB1A10900272F99 /* BindingFirstVC.swift */; };
 		7E5779001FB1A15500272F99 /* BindingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5778FF1FB1A15500272F99 /* BindingSecondVC.swift */; };
 		7E5779021FB1A16C00272F99 /* BindingThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5779011FB1A16C00272F99 /* BindingThirdVC.swift */; };
@@ -49,6 +59,8 @@
 		7E58F2781FA31C490022D0CF /* MyPagecontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F2771FA31C480022D0CF /* MyPagecontrol.swift */; };
 		7E58F27A1FA335E60022D0CF /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F2791FA335E60022D0CF /* PlayerVC.swift */; };
 		7E5E391A1FA41CA500619EFA /* RMDSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E39181FA41C3800619EFA /* RMDSectionHeader.swift */; };
+		7E5E99A21FB5ABC300B4F43D /* LH_DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E99A01FB5ABC300B4F43D /* LH_DatePickerView.swift */; };
+		7E5E99A31FB5ABC300B4F43D /* LH_DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E99A11FB5ABC300B4F43D /* LH_DatePickerView.xib */; };
 		7E6F96921FAB19AE00941FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6F96911FAB19AE00941FB3 /* Main.storyboard */; };
 		7E717B881FA6C1E7009F6935 /* RMDBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E717B871FA6C1E7009F6935 /* RMDBannerCell.swift */; };
 		7E717B8A1FA6C227009F6935 /* RMDClassicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E717B891FA6C227009F6935 /* RMDClassicCell.swift */; };
@@ -80,8 +92,15 @@
 		7E35E75B1F9DD88500935E83 /* Me.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
 		7E35E75D1F9DE07E00935E83 /* UIImage+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Category.swift"; path = "Cool/Category/UIImage+Category.swift"; sourceTree = SOURCE_ROOT; };
 		7E35E75F1F9DE28000935E83 /* UIView+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Category.swift"; sourceTree = "<group>"; };
+		7E3E7ADC1FB3EA850041CDA2 /* MeMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMessageVC.swift; sourceTree = "<group>"; };
+		7E3E7ADE1FB3EF980041CDA2 /* MeMessageHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMessageHeaderCell.swift; sourceTree = "<group>"; };
+		7E3E7AE01FB3EFC90041CDA2 /* MeMessageListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMessageListCell.swift; sourceTree = "<group>"; };
+		7E3E7AE21FB3FA330041CDA2 /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
+		7E3E7AE41FB44E5C0041CDA2 /* LHUIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHUIAlertController.swift; sourceTree = "<group>"; };
 		7E4BF93B1FA17857007E6824 /* String+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Category.swift"; path = "Cool/Category/String+Category.swift"; sourceTree = SOURCE_ROOT; };
 		7E4DF0EC1FA848F20041A997 /* MeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeCell.swift; sourceTree = "<group>"; };
+		7E5229061FB2AE0600B3B06C /* RecommendSubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSubVC.swift; sourceTree = "<group>"; };
+		7E5229081FB2AE4100B3B06C /* RecommendSubDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSubDetailVC.swift; sourceTree = "<group>"; };
 		7E539FC91F9EE33500FF82B6 /* RecommendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendVC.swift; sourceTree = "<group>"; };
 		7E539FCB1F9EE34F00FF82B6 /* CollectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectVC.swift; sourceTree = "<group>"; };
 		7E539FCD1F9EE36100FF82B6 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
@@ -90,6 +109,9 @@
 		7E539FD71F9F0B8F00FF82B6 /* DanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceVC.swift; sourceTree = "<group>"; };
 		7E539FD91F9F0BA600FF82B6 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		7E539FDB1F9F0BB500FF82B6 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		7E546C531FBA9CD400857E78 /* LoginOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOutView.swift; sourceTree = "<group>"; };
+		7E546C551FBA9CE700857E78 /* LoginOutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginOutView.xib; sourceTree = "<group>"; };
+		7E54E3761FBABC44003BB942 /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 		7E5778FD1FB1A10900272F99 /* BindingFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingFirstVC.swift; sourceTree = "<group>"; };
 		7E5778FF1FB1A15500272F99 /* BindingSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingSecondVC.swift; sourceTree = "<group>"; };
 		7E5779011FB1A16C00272F99 /* BindingThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingThirdVC.swift; sourceTree = "<group>"; };
@@ -105,6 +127,8 @@
 		7E58F2791FA335E60022D0CF /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
 		7E5E39181FA41C3800619EFA /* RMDSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDSectionHeader.swift; sourceTree = "<group>"; };
 		7E5E39191FA41CA500619EFA /* RMDSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMDSectionHeader.xib; sourceTree = "<group>"; };
+		7E5E99A01FB5ABC300B4F43D /* LH_DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LH_DatePickerView.swift; sourceTree = "<group>"; };
+		7E5E99A11FB5ABC300B4F43D /* LH_DatePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LH_DatePickerView.xib; sourceTree = "<group>"; };
 		7E6F96911FAB19AE00941FB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7E717B871FA6C1E7009F6935 /* RMDBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDBannerCell.swift; sourceTree = "<group>"; };
 		7E717B891FA6C227009F6935 /* RMDClassicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDClassicCell.swift; sourceTree = "<group>"; };
@@ -194,6 +218,9 @@
 				7E35E75D1F9DE07E00935E83 /* UIImage+Category.swift */,
 				7E35E75F1F9DE28000935E83 /* UIView+Category.swift */,
 				7E4BF93B1FA17857007E6824 /* String+Category.swift */,
+				7E3E7AE41FB44E5C0041CDA2 /* LHUIAlertController.swift */,
+				7E5E99A01FB5ABC300B4F43D /* LH_DatePickerView.swift */,
+				7E5E99A11FB5ABC300B4F43D /* LH_DatePickerView.xib */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -235,6 +262,12 @@
 			children = (
 				7E539FDB1F9F0BB500FF82B6 /* MeVC.swift */,
 				7E4DF0EC1FA848F20041A997 /* MeCell.swift */,
+				7E3E7AE21FB3FA330041CDA2 /* AboutAppVC.swift */,
+				7E3E7ADC1FB3EA850041CDA2 /* MeMessageVC.swift */,
+				7E3E7ADE1FB3EF980041CDA2 /* MeMessageHeaderCell.swift */,
+				7E3E7AE01FB3EFC90041CDA2 /* MeMessageListCell.swift */,
+				7E546C531FBA9CD400857E78 /* LoginOutView.swift */,
+				7E546C551FBA9CE700857E78 /* LoginOutView.xib */,
 			);
 			path = me;
 			sourceTree = "<group>";
@@ -258,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				7E58F2741FA308480022D0CF /* Cool-Bridging-Header.h */,
+				7E54E3761FBABC44003BB942 /* Macros.swift */,
 				7E58F2751FA308480022D0CF /* MainTabBarVC.swift */,
 			);
 			path = tabbarVC;
@@ -274,6 +308,8 @@
 				7E717B8B1FA6C25C009F6935 /* RMDClassicColletionCell.swift */,
 				7E717B8D1FA6C286009F6935 /* RMDHotCell.swift */,
 				7E717B8F1FA6C2B8009F6935 /* RMDHotColletionCell.swift */,
+				7E5229061FB2AE0600B3B06C /* RecommendSubVC.swift */,
+				7E5229081FB2AE4100B3B06C /* RecommendSubDetailVC.swift */,
 			);
 			path = recommmend;
 			sourceTree = "<group>";
@@ -390,9 +426,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E717B911FA6CD0F009F6935 /* RMDSectionHeader.xib in Resources */,
+				7E5E99A31FB5ABC300B4F43D /* LH_DatePickerView.xib in Resources */,
 				7E35E75A1F9DD86900935E83 /* Chat.storyboard in Resources */,
 				7E35E7431F9D829100935E83 /* Login.storyboard in Resources */,
 				7E0EF1761F9AD62800D0C625 /* LaunchScreen.storyboard in Resources */,
+				7E546C561FBA9CE700857E78 /* LoginOutView.xib in Resources */,
 				7E35E7581F9DD7BD00935E83 /* Dance.storyboard in Resources */,
 				7E0EF1731F9AD62800D0C625 /* Assets.xcassets in Resources */,
 				7E6F96921FAB19AE00941FB3 /* Main.storyboard in Resources */,
@@ -475,21 +513,29 @@
 				7E5E391A1FA41CA500619EFA /* RMDSectionHeader.swift in Sources */,
 				7E58F2781FA31C490022D0CF /* MyPagecontrol.swift in Sources */,
 				7E58F26F1FA2FE170022D0CF /* FacilityVC.swift in Sources */,
+				7E5229091FB2AE4100B3B06C /* RecommendSubDetailVC.swift in Sources */,
+				7E3E7AE31FB3FA330041CDA2 /* AboutAppVC.swift in Sources */,
 				7E58F27A1FA335E60022D0CF /* PlayerVC.swift in Sources */,
 				7E05BE501F9AED9500D2717C /* CoreDataDB.swift in Sources */,
 				7E717B881FA6C1E7009F6935 /* RMDBannerCell.swift in Sources */,
 				7E717B931FA6FE33009F6935 /* ChatCell.swift in Sources */,
 				7E0EF1711F9AD62800D0C625 /* Cool.xcdatamodeld in Sources */,
 				7E5778FE1FB1A10900272F99 /* BindingFirstVC.swift in Sources */,
+				7E3E7AE11FB3EFC90041CDA2 /* MeMessageListCell.swift in Sources */,
 				7E35E74C1F9D862A00935E83 /* LoginVC.swift in Sources */,
 				7E5779061FB1A27E00272F99 /* BindingFourth2VC.swift in Sources */,
 				7E4DF0ED1FA848F20041A997 /* MeCell.swift in Sources */,
 				7E35E75E1F9DE07E00935E83 /* UIImage+Category.swift in Sources */,
 				7E35E74A1F9D85EC00935E83 /* BaseDefine.swift in Sources */,
 				7E5779041FB1A24600272F99 /* BindingFourth1VC.swift in Sources */,
+				7E54E3771FBABC44003BB942 /* Macros.swift in Sources */,
+				7E5E99A21FB5ABC300B4F43D /* LH_DatePickerView.swift in Sources */,
+				7E5229071FB2AE0600B3B06C /* RecommendSubVC.swift in Sources */,
+				7E546C541FBA9CD400857E78 /* LoginOutView.swift in Sources */,
 				7E717B8A1FA6C227009F6935 /* RMDClassicCell.swift in Sources */,
 				7E0EF16B1F9AD62800D0C625 /* ViewController.swift in Sources */,
 				7E35E7601F9DE28000935E83 /* UIView+Category.swift in Sources */,
+				7E3E7ADF1FB3EF990041CDA2 /* MeMessageHeaderCell.swift in Sources */,
 				7E35E7531F9DBBBF00935E83 /* UIColor+Category.swift in Sources */,
 				7E35E7451F9D836B00935E83 /* BaseNavigationViewController.swift in Sources */,
 				7E539FCE1F9EE36100FF82B6 /* HistoryVC.swift in Sources */,
@@ -498,11 +544,13 @@
 				7E35E74E1F9D8FAB00935E83 /* RegisterVC.swift in Sources */,
 				7E539FD01F9EE4EB00FF82B6 /* SearchVC.swift in Sources */,
 				7E717B8E1FA6C286009F6935 /* RMDHotCell.swift in Sources */,
+				7E3E7AE51FB44E5C0041CDA2 /* LHUIAlertController.swift in Sources */,
 				7E5779081FB1A29000272F99 /* BindingFourth3VC.swift in Sources */,
 				7E4BF93C1FA17857007E6824 /* String+Category.swift in Sources */,
 				7E539FDA1F9F0BA600FF82B6 /* ChatVC.swift in Sources */,
 				7E57790C1FB1A42800272F99 /* BindingDeviceVC.swift in Sources */,
 				7E539FCA1F9EE33500FF82B6 /* RecommendVC.swift in Sources */,
+				7E3E7ADD1FB3EA850041CDA2 /* MeMessageVC.swift in Sources */,
 				7E539FDC1F9F0BB500FF82B6 /* MeVC.swift in Sources */,
 				7E0EF1691F9AD62800D0C625 /* AppDelegate.swift in Sources */,
 				7E35E7471F9D838800935E83 /* BaseViewController.swift in Sources */,
@@ -651,7 +699,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Cool/tabbarVC/Cool-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
@@ -672,7 +720,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Cool/tabbarVC/Cool-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;

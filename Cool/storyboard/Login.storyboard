@@ -198,6 +198,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ButtonEvent:" destination="BPW-Lk-Vk5" eventType="touchUpInside" id="UfA-ri-05W"/>
+                                    <segue destination="R99-k8-hVb" kind="unwind" identifier="RegisterVC" unwindAction="performUnwindSegueWithSegue:" id="zNU-m6-IKO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="US4-Sh-fxY">
@@ -207,7 +208,6 @@
                                 </state>
                                 <connections>
                                     <action selector="ButtonEvent:" destination="BPW-Lk-Vk5" eventType="touchUpInside" id="dkI-r0-q0A"/>
-                                    <segue destination="R99-k8-hVb" kind="unwind" identifier="RegisterVC" unwindAction="performUnwindSegueWithSegue:" id="50i-Tc-CTF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -990,6 +990,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="BkJ-rg-YfI"/>
-        <segue reference="Psv-l8-uCU"/>
+        <segue reference="1ig-tv-7CA"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginOutView" customModule="Cool" customModuleProvider="target">
+            <connections>
+                <outlet property="OKButton" destination="pg6-yk-PNw" id="fFG-4d-8Iu"/>
+                <outlet property="againButton" destination="aiJ-Lv-HOo" id="aCT-ob-fpb"/>
+                <outlet property="titleLablel" destination="LRM-mP-yTV" id="5Zi-u3-W8E"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKg-LR-az1">
+                    <rect key="frame" x="30.5" y="116" width="314.5" height="219"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box_add" translatesAutoresizingMaskIntoConstraints="NO" id="vwz-L3-SA2">
+                            <rect key="frame" x="0.0" y="0.0" width="314.5" height="219"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否立即退出？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRM-mP-yTV">
+                            <rect key="frame" x="0.0" y="60" width="314.5" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiJ-Lv-HOo">
+                            <rect key="frame" x="21" y="165" width="272.5" height="34"/>
+                            <state key="normal" title="再用一会">
+                                <color key="titleColor" red="1" green="0.32265462690000002" blue="0.33372918130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonEvent:" destination="-1" eventType="touchUpInside" id="uQk-4V-DdO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pg6-yk-PNw">
+                            <rect key="frame" x="21" y="108" width="272.5" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="exQ-AO-Fw0"/>
+                            </constraints>
+                            <state key="normal" title="立即退出" backgroundImage="button_select1"/>
+                            <connections>
+                                <action selector="buttonEvent:" destination="-1" eventType="touchUpInside" id="hSs-6p-GaI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="vwz-L3-SA2" firstAttribute="top" secondItem="bKg-LR-az1" secondAttribute="top" id="0ci-Qd-vrU"/>
+                        <constraint firstAttribute="trailing" secondItem="vwz-L3-SA2" secondAttribute="trailing" id="35k-gk-ZGy"/>
+                        <constraint firstItem="aiJ-Lv-HOo" firstAttribute="trailing" secondItem="pg6-yk-PNw" secondAttribute="trailing" id="CFN-CL-8cG"/>
+                        <constraint firstAttribute="height" constant="219" id="DXy-Dh-sdY"/>
+                        <constraint firstAttribute="trailing" secondItem="pg6-yk-PNw" secondAttribute="trailing" constant="21" id="GTf-Rx-htH"/>
+                        <constraint firstItem="pg6-yk-PNw" firstAttribute="top" secondItem="LRM-mP-yTV" secondAttribute="bottom" constant="30" id="HGt-4O-Zk0"/>
+                        <constraint firstItem="LRM-mP-yTV" firstAttribute="top" secondItem="bKg-LR-az1" secondAttribute="top" constant="60" id="JaW-TF-sAb"/>
+                        <constraint firstItem="aiJ-Lv-HOo" firstAttribute="leading" secondItem="pg6-yk-PNw" secondAttribute="leading" id="KQ5-8f-PhG"/>
+                        <constraint firstItem="aiJ-Lv-HOo" firstAttribute="top" secondItem="pg6-yk-PNw" secondAttribute="bottom" constant="15" id="QM7-Og-t9h"/>
+                        <constraint firstAttribute="trailing" secondItem="LRM-mP-yTV" secondAttribute="trailing" id="YAd-Y6-1cg"/>
+                        <constraint firstAttribute="bottom" secondItem="vwz-L3-SA2" secondAttribute="bottom" id="a3Y-Bv-gmF"/>
+                        <constraint firstItem="LRM-mP-yTV" firstAttribute="leading" secondItem="bKg-LR-az1" secondAttribute="leading" id="aLa-uc-pPI"/>
+                        <constraint firstItem="pg6-yk-PNw" firstAttribute="leading" secondItem="bKg-LR-az1" secondAttribute="leading" constant="21" id="dLI-Wi-DAh"/>
+                        <constraint firstAttribute="width" secondItem="bKg-LR-az1" secondAttribute="height" multiplier="314:219" id="dwd-uA-9LW"/>
+                        <constraint firstItem="vwz-L3-SA2" firstAttribute="leading" secondItem="bKg-LR-az1" secondAttribute="leading" id="ypV-LT-qDu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.37250512838363647" green="0.37257429957389832" blue="0.37250077724456787" alpha="0.099047517123287673" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bKg-LR-az1" secondAttribute="trailing" constant="30" id="VFP-RS-2Pz"/>
+                <constraint firstItem="bKg-LR-az1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="o7z-CB-qy2"/>
+                <constraint firstItem="bKg-LR-az1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-108" id="xB5-mM-dcj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="62.5" y="72.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="box_add" width="25" height="25"/>
+        <image name="button_select1" width="50" height="42"/>
+    </resources>
+</document>

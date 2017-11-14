@@ -10,6 +10,10 @@ import UIKit
 
 class RMDClassicCell: UITableViewCell {
 
+    typealias responseBlock = (_ index : Int)->()
+    
+    var returnBlock : responseBlock!
+    
     @IBOutlet weak var colletionView: UICollectionView!
     
     @IBOutlet weak var layout: UICollectionViewFlowLayout!
@@ -52,4 +56,9 @@ extension RMDClassicCell : UICollectionViewDataSource,UICollectionViewDelegateFl
         return CGSize.init(width: collectionView.width * 0.25, height: collectionView.height)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let _ = returnBlock {
+            returnBlock(indexPath.row)
+        }
+    }
 }

@@ -1,0 +1,48 @@
+//
+//  LoginOutView.swift
+//  Cool
+//
+//  Created by 刘恒 on 2017/11/14.
+//  Copyright © 2017年 Cool. All rights reserved.
+//
+
+import UIKit
+
+class LoginOutView: UIView {
+    
+    var title:String = ""
+    var OKTitle:String = ""
+    var againTitle:String = ""
+    
+    typealias CallBackBlock = (_ index:Int)->()
+    
+    var callbackBlock : CallBackBlock!
+    
+    
+    @IBOutlet weak var titleLablel: UILabel!
+    
+    @IBOutlet weak var againButton: UIButton!
+    
+    @IBOutlet weak var OKButton: UIButton!
+    
+    @IBAction func buttonEvent(_ sender: UIButton) {
+
+        if let _ = callbackBlock {
+            callbackBlock(sender.tag)
+        }
+         self.removeFromSuperview()
+    }
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    override func layoutSubviews() {
+        let view:UIView = Bundle.main.loadNibNamed("LoginOutView", owner: self, options: nil)?.first as! UIView
+        self.addSubview(view)
+    }
+    
+    
+}

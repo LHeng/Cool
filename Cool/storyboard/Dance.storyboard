@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -89,13 +89,13 @@
                                         <rect key="frame" x="0.0" y="250" width="101" height="125"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="yKu-6P-Ovf">
-                                                <rect key="frame" x="0.0" y="41" width="49.5" height="84"/>
+                                                <rect key="frame" x="0.0" y="41" width="51" height="84"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="yKu-6P-Ovf" firstAttribute="top" secondItem="MMW-PG-PBT" secondAttribute="top" constant="41" id="3Iq-Eo-ZzZ"/>
-                                            <constraint firstAttribute="trailing" secondItem="yKu-6P-Ovf" secondAttribute="trailing" constant="51.5" id="J9f-db-Dor"/>
+                                            <constraint firstAttribute="trailing" secondItem="yKu-6P-Ovf" secondAttribute="trailing" constant="50" id="J9f-db-Dor"/>
                                             <constraint firstAttribute="bottom" secondItem="yKu-6P-Ovf" secondAttribute="bottom" id="UnF-NY-aQL"/>
                                             <constraint firstItem="yKu-6P-Ovf" firstAttribute="leading" secondItem="MMW-PG-PBT" secondAttribute="leading" id="kBc-wZ-1hp"/>
                                         </constraints>

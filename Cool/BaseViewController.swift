@@ -37,6 +37,12 @@ class BaseViewController: UIViewController {
         }
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        if isMarkShow {
+            topMarkAnimateWithCenterX(centerX: UIScreen.main.bounds.size.width + 15)
+        }
+    }
     func configureNaviBackBarItem() {
         baseBackBtn = UIBarButtonItem.init(title: "", style: UIBarButtonItemStyle.plain, target: self, action: #selector(naviBackAction))
         baseBackBtn.image = UIImage.init(named: "icon_back")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)

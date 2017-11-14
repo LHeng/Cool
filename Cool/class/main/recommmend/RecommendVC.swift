@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RecommendVC: UIViewController {
+class RecommendVC: BaseViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -19,6 +19,8 @@ class RecommendVC: UIViewController {
         tableView.tableFooterView = UIView.init()
         tableView.separatorStyle = UITableViewCellSeparatorStyle.none
         tableView.showsVerticalScrollIndicator = false
+        isNaviBackShow = false
+        isMarkShow = false
         // Do any additional setup after loading the view.
     }
 
@@ -27,6 +29,7 @@ class RecommendVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        self.navigationController?.isNavigationBarHidden = false
         segue.destination.hidesBottomBarWhenPushed = true
     }
 
@@ -94,13 +97,22 @@ extension RecommendVC : UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
         case 0:
-            let bannerCell = tableView.dequeueReusableCell(withIdentifier: "RMDBannerCell", for: indexPath)
+            let bannerCell : RMDBannerCell = tableView.dequeueReusableCell(withIdentifier: "RMDBannerCell", for: indexPath) as! RMDBannerCell
+            bannerCell.returnBlock = {(index)in
+                self.performSegue(withIdentifier: "toRecommendSubVC", sender: nil)
+            }
             return bannerCell
         case 1:
-            let classicsCell = tableView.dequeueReusableCell(withIdentifier: "RMDClassicsCell", for: indexPath)
+            let classicsCell : RMDClassicCell = tableView.dequeueReusableCell(withIdentifier: "RMDClassicsCell", for: indexPath) as! RMDClassicCell
+            classicsCell.returnBlock = {(index)in
+                 self.performSegue(withIdentifier: "toRecommendSubDetailVC", sender: nil)
+            }
             return classicsCell
         case 2:
-            let hotCell = tableView.dequeueReusableCell(withIdentifier: "RMDHotCell", for: indexPath)
+            let hotCell : RMDHotCell = tableView.dequeueReusableCell(withIdentifier: "RMDHotCell", for: indexPath) as! RMDHotCell
+            hotCell.returnBlock = {(index)in
+                 self.performSegue(withIdentifier: "toRecommendSubVC", sender: nil)
+            }
             return hotCell
         default:
             return UITableViewCell()

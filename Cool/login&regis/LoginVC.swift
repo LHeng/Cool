@@ -21,15 +21,14 @@ class LoginVC: BaseViewController {
         super.viewDidLoad()
         self.navigationItem.title = "登录"
         isNaviBackShow = false
-      
+        let user : User = CoreDataDB.getUser()
+        accountT.text = user.name
+        passwordT.text = user.password
      
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        let user : User = CoreDataDB.getUser()
-        accountT.text = user.name
-        passwordT.text = user.password
     }
    
     override func didReceiveMemoryWarning() {
@@ -94,6 +93,7 @@ extension LoginVC : UITextFieldDelegate {
     @IBAction func performUnwindSegue(segue: UIStoryboardSegue) {
         if segue.identifier == RegisterVC.UnwindSuge {
             accountT.text = (segue.source as! RegisterVC).accountT.text
+            passwordT.text = (segue.source as! RegisterVC).passwordT.text
         }
     }
     

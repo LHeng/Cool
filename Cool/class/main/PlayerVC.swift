@@ -8,11 +8,11 @@
 
 import UIKit
 
-class PlayerVC: UIViewController {
+class PlayerVC: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        self.title = "音乐播放器"
         // Do any additional setup after loading the view.
     }
 

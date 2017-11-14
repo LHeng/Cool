@@ -9,9 +9,12 @@
 import UIKit
 
 class RMDBannerCell: UITableViewCell {
-
+    typealias responseBlock = (_ index : Int)->()
+    
+    var returnBlock : responseBlock!
+    
     let imageArr = ["banner_im1","banner_im2","banner_im3"]
-    let titles = ["1","2","3"]
+    let titles = ["First","Second","Third"]
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,6 +25,7 @@ class RMDBannerCell: UITableViewCell {
         cycleScrollView.currentPageDotColor = UIColor.red
         cycleScrollView.pageDotColor = UIColor.white
         cycleScrollView.showPageControl = true
+        cycleScrollView.delegate = self
         self.addSubview(cycleScrollView)
     }
 
@@ -31,4 +35,12 @@ class RMDBannerCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+}
+
+extension RMDBannerCell : SDCycleScrollViewDelegate {
+    func cycleScrollView(_ cycleScrollView: SDCycleScrollView!, didSelectItemAt index: Int) {
+        if let _ = returnBlock {
+            returnBlock(index)
+        }
+    }
 }

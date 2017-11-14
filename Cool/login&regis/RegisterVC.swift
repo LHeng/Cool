@@ -74,11 +74,10 @@ class RegisterVC: BaseViewController {
                 
             } else {
                 CoreDataDB.updateUser(name: accountT.text!, password: passwordT.text!)
-                self.navigationController?.popViewController(animated: true)
             }
             break
         case 2:
-           
+                self.navigationController?.popViewController(animated: true)
             break
         default:
             break

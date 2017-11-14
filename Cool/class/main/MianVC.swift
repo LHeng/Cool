@@ -30,7 +30,7 @@ class MianVC: UIViewController {
     var naviBurrons = [UIButton]()
     
     var topMarkView : UIView!
-    var markFrame = CGRect()
+    var MarkFrame = CGRect()
 
     
     
@@ -39,7 +39,7 @@ class MianVC: UIViewController {
         configureParameter()
         setUpNavibtn()
         setUpPageViews()
-        
+      
         // Do any additional setup after loading the view.
     }
 
@@ -73,7 +73,7 @@ class MianVC: UIViewController {
     }
     
     func configureParameter() {
-        markFrame = CGRect.init(x: -15, y: -3.5, width: 30, height: 7)
+        MarkFrame = CGRect.init(x: -15, y: -3.5, width: 30, height: 7)
         topMarkView = UIImageView.init(image: UIImage.init(named: "top_select"))
     }
     override func didReceiveMemoryWarning() {
@@ -84,7 +84,7 @@ class MianVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.navigationController?.isNavigationBarHidden = true
-        topMarkView.frame = markFrame
+        topMarkView.frame = MarkFrame
         naviLine.addSubview(topMarkView)
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -107,7 +107,8 @@ class MianVC: UIViewController {
         }
         topMarkAnimateWithCenterX(centerX: centerX)
     }
-    func topMarkAnimateWithCenterX(centerX : CGFloat) {
+    
+     func topMarkAnimateWithCenterX(centerX : CGFloat) {
         var center:CGPoint = self.topMarkView.center
         center.x = centerX
         UIView.animate(withDuration: 0.3) {
@@ -117,10 +118,10 @@ class MianVC: UIViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.navigationController?.isNavigationBarHidden = false
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         self.navigationController?.isNavigationBarHidden = false
         if segue.destination.isKind(of: SearchVC.self) {
             let vc : SearchVC = segue.destination as! SearchVC
             vc.hidesBottomBarWhenPushed = true
