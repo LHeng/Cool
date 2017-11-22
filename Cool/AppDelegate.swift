@@ -26,8 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.makeKeyAndVisible()
         
-        print("Application did finish launching")
-
         return true
     }
 
