@@ -1,26 +1,65 @@
 PODS:
+  - Bugtags (2.4.1):
+    - Bugtags/Core (= 2.4.1)
+  - Bugtags/Core (2.4.1)
+  - FLAnimatedImage (1.0.12)
+  - Hyphenate (3.3.6)
+  - MJRefresh (3.1.15.1)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - ObjectMapper (3.1.0)
+  - Realm (3.0.2):
+    - Realm/Headers (= 3.0.2)
+  - Realm/Headers (3.0.2)
+  - RealmSwift (3.0.2):
+    - Realm (= 3.0.2)
   - Result (3.2.4)
   - RFCircleCollectionViewFlowLayout (0.0.1)
-  - SDCycleScrollView (1.73):
-    - SDWebImage (~> 4.0.0)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - SDCycleScrollView (1.74):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SnapKit (4.0.0)
   - SugarRecord/CoreData (3.1.2):
     - Result (~> 3.0)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
+  - Bugtags
+  - FLAnimatedImage
+  - Hyphenate
+  - MJRefresh
+  - NJKWebViewProgress
+  - ObjectMapper
+  - RealmSwift
   - RFCircleCollectionViewFlowLayout
   - SDCycleScrollView
+  - SDWebImage
+  - SnapKit
   - SugarRecord/CoreData
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Bugtags: 3cf86a0d831ac6df515c751462372f572bc67fb3
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Hyphenate: 4f2af7a1258f3374a925fa7f51bae80a74f12d6d
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
+  RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RFCircleCollectionViewFlowLayout: c38f8051e3ac45c99c087d2e5abe92f9158d60d0
-  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SDCycleScrollView: f821215226f6146a35470721a9d6e83ec5cfb04b
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SugarRecord: be6aa5c18b4a4dec0de4c1f49fc61c85eabb5328
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: b3b79b14054ffa2714da978f5131ad09b8d646d4
+PODFILE CHECKSUM: ac7f81d8a4927701808f2476375192ebaf29749d
 
-COCOAPODS: 1.4.0.beta.1
+COCOAPODS: 1.4.0.beta.2
