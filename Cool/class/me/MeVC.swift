@@ -183,7 +183,6 @@ extension MeVC : UITableViewDelegate,UITableViewDataSource {
         default:
             break
         }
-        tableView.deselectRow(at: indexPath, animated: true)
     }
     
 }

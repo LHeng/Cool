@@ -42,6 +42,18 @@ class LoginOutView: UIView {
     override func layoutSubviews() {
         let view:UIView = Bundle.main.loadNibNamed("LoginOutView", owner: self, options: nil)?.first as! UIView
         self.addSubview(view)
+        
+        if title.count > 0 {
+            titleLablel.text = title
+        }
+        if OKTitle.count > 0 {
+            OKButton.setTitle(OKTitle, for: UIControlState.normal)
+            OKButton.setTitle(OKTitle, for: UIControlState.highlighted)
+        }
+        if againTitle.count > 0 {
+            againButton.setTitle(againTitle, for: UIControlState.normal)
+            againButton.setTitle(againTitle, for: UIControlState.highlighted)
+        }
     }
     
     

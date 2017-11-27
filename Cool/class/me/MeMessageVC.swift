@@ -146,8 +146,8 @@ extension MeMessageVC : UITableViewDataSource,UITableViewDelegate,UIImagePickerC
             let date = dateFormatter.date(from: self.dadeStr)
             datePicker.date = date! as NSDate
             }*/
-            datePicker._date = NSDate()
-            datePicker._mode = UIDatePickerMode.date
+            datePicker.date = NSDate()
+            datePicker.mode = UIDatePickerMode.date
             datePicker.callbackBlock = {(Str)in
                 self.dadeStr = Str
                 MMListCell.textField.text = Str

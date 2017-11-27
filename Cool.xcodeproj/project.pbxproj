@@ -69,6 +69,19 @@
 		7E717B901FA6C2B8009F6935 /* RMDHotColletionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E717B8F1FA6C2B8009F6935 /* RMDHotColletionCell.swift */; };
 		7E717B911FA6CD0F009F6935 /* RMDSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E39191FA41CA500619EFA /* RMDSectionHeader.xib */; };
 		7E717B931FA6FE33009F6935 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E717B921FA6FE33009F6935 /* ChatCell.swift */; };
+		7E8D3EC41FC9115F001A1F65 /* HelpSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3EC31FC9115F001A1F65 /* HelpSectionHeaderView.swift */; };
+		7E8E1A171FC7B4AE00B06325 /* FacilityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A161FC7B4AE00B06325 /* FacilityCollectionViewCell.swift */; };
+		7E8E1A191FC7CB2C00B06325 /* DeviceMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A181FC7CB2C00B06325 /* DeviceMessageVC.swift */; };
+		7E8E1A1B1FC7CDB500B06325 /* DeviceMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A1A1FC7CDB500B06325 /* DeviceMessageCell.swift */; };
+		7E8E1A1F1FC7EBD800B06325 /* DeviceMessageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A1E1FC7EBD800B06325 /* DeviceMessageHeaderCell.swift */; };
+		7E8E1A211FC7EC4700B06325 /* DeviceMessageOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A201FC7EC4700B06325 /* DeviceMessageOtherCell.swift */; };
+		7E8E1A231FC7ED5600B06325 /* DeviceStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A221FC7ED5600B06325 /* DeviceStatusCell.swift */; };
+		7E8E1A251FC7EE7800B06325 /* DeviceMessageFootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A241FC7EE7800B06325 /* DeviceMessageFootCell.swift */; };
+		7E8E1A271FC80C2E00B06325 /* BabyMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A261FC80C2E00B06325 /* BabyMessageVC.swift */; };
+		7E8E1A291FC80C6100B06325 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A281FC80C6100B06325 /* HelpVC.swift */; };
+		7E8E1A2D1FC80CEE00B06325 /* HelpSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E1A2B1FC80CED00B06325 /* HelpSectionHeaderView.xib */; };
+		7E8E1A2F1FC8152400B06325 /* BabyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A2E1FC8152400B06325 /* BabyMessageCell.swift */; };
+		7E8E1A311FC81B0900B06325 /* HelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E1A301FC81B0900B06325 /* HelpCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +149,19 @@
 		7E717B8D1FA6C286009F6935 /* RMDHotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDHotCell.swift; sourceTree = "<group>"; };
 		7E717B8F1FA6C2B8009F6935 /* RMDHotColletionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDHotColletionCell.swift; sourceTree = "<group>"; };
 		7E717B921FA6FE33009F6935 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		7E8D3EC31FC9115F001A1F65 /* HelpSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSectionHeaderView.swift; sourceTree = "<group>"; };
+		7E8E1A161FC7B4AE00B06325 /* FacilityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E8E1A181FC7CB2C00B06325 /* DeviceMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMessageVC.swift; sourceTree = "<group>"; };
+		7E8E1A1A1FC7CDB500B06325 /* DeviceMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMessageCell.swift; sourceTree = "<group>"; };
+		7E8E1A1E1FC7EBD800B06325 /* DeviceMessageHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMessageHeaderCell.swift; sourceTree = "<group>"; };
+		7E8E1A201FC7EC4700B06325 /* DeviceMessageOtherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMessageOtherCell.swift; sourceTree = "<group>"; };
+		7E8E1A221FC7ED5600B06325 /* DeviceStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatusCell.swift; sourceTree = "<group>"; };
+		7E8E1A241FC7EE7800B06325 /* DeviceMessageFootCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMessageFootCell.swift; sourceTree = "<group>"; };
+		7E8E1A261FC80C2E00B06325 /* BabyMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyMessageVC.swift; sourceTree = "<group>"; };
+		7E8E1A281FC80C6100B06325 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		7E8E1A2B1FC80CED00B06325 /* HelpSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpSectionHeaderView.xib; sourceTree = "<group>"; };
+		7E8E1A2E1FC8152400B06325 /* BabyMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyMessageCell.swift; sourceTree = "<group>"; };
+		7E8E1A301FC81B0900B06325 /* HelpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCell.swift; sourceTree = "<group>"; };
 		B7659BD308A8F2D6BAADB5EB /* Pods-Cool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cool/Pods-Cool.debug.xcconfig"; sourceTree = "<group>"; };
 		BD5DAC50F666B7678BA7C67F /* Pods_Cool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0E85A74AFDFCFE60DA0E0D /* Pods-Cool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cool.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cool/Pods-Cool.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,9 +254,9 @@
 		7E539FD11F9F0AD800FF82B6 /* main */ = {
 			isa = PBXGroup;
 			children = (
+				7E8E1A0F1FC7B1AC00B06325 /* facility */,
 				7E717B861FA6C145009F6935 /* recommmend */,
 				7E539FD51F9F0B7B00FF82B6 /* MianVC.swift */,
-				7E58F26E1FA2FE170022D0CF /* FacilityVC.swift */,
 				7E539FCB1F9EE34F00FF82B6 /* CollectVC.swift */,
 				7E539FCD1F9EE36100FF82B6 /* HistoryVC.swift */,
 				7E539FCF1F9EE4EB00FF82B6 /* SearchVC.swift */,
@@ -312,6 +338,27 @@
 				7E5229081FB2AE4100B3B06C /* RecommendSubDetailVC.swift */,
 			);
 			path = recommmend;
+			sourceTree = "<group>";
+		};
+		7E8E1A0F1FC7B1AC00B06325 /* facility */ = {
+			isa = PBXGroup;
+			children = (
+				7E58F26E1FA2FE170022D0CF /* FacilityVC.swift */,
+				7E8E1A161FC7B4AE00B06325 /* FacilityCollectionViewCell.swift */,
+				7E8E1A181FC7CB2C00B06325 /* DeviceMessageVC.swift */,
+				7E8E1A1E1FC7EBD800B06325 /* DeviceMessageHeaderCell.swift */,
+				7E8E1A1A1FC7CDB500B06325 /* DeviceMessageCell.swift */,
+				7E8E1A221FC7ED5600B06325 /* DeviceStatusCell.swift */,
+				7E8E1A201FC7EC4700B06325 /* DeviceMessageOtherCell.swift */,
+				7E8E1A241FC7EE7800B06325 /* DeviceMessageFootCell.swift */,
+				7E8E1A261FC80C2E00B06325 /* BabyMessageVC.swift */,
+				7E8E1A2E1FC8152400B06325 /* BabyMessageCell.swift */,
+				7E8E1A281FC80C6100B06325 /* HelpVC.swift */,
+				7E8D3EC31FC9115F001A1F65 /* HelpSectionHeaderView.swift */,
+				7E8E1A2B1FC80CED00B06325 /* HelpSectionHeaderView.xib */,
+				7E8E1A301FC81B0900B06325 /* HelpCell.swift */,
+			);
+			path = facility;
 			sourceTree = "<group>";
 		};
 		7EF740BB1F9AFD0E004CEA67 /* other */ = {
@@ -432,6 +479,7 @@
 				7E0EF1761F9AD62800D0C625 /* LaunchScreen.storyboard in Resources */,
 				7E546C561FBA9CE700857E78 /* LoginOutView.xib in Resources */,
 				7E35E7581F9DD7BD00935E83 /* Dance.storyboard in Resources */,
+				7E8E1A2D1FC80CEE00B06325 /* HelpSectionHeaderView.xib in Resources */,
 				7E0EF1731F9AD62800D0C625 /* Assets.xcassets in Resources */,
 				7E6F96921FAB19AE00941FB3 /* Main.storyboard in Resources */,
 				7E35E75C1F9DD88500935E83 /* Me.storyboard in Resources */,
@@ -530,11 +578,15 @@
 			files = (
 				7E717B901FA6C2B8009F6935 /* RMDHotColletionCell.swift in Sources */,
 				7E58F2761FA308C00022D0CF /* MainTabBarVC.swift in Sources */,
+				7E8E1A191FC7CB2C00B06325 /* DeviceMessageVC.swift in Sources */,
+				7E8E1A1B1FC7CDB500B06325 /* DeviceMessageCell.swift in Sources */,
 				7E539FD81F9F0B8F00FF82B6 /* DanceVC.swift in Sources */,
 				7E5E391A1FA41CA500619EFA /* RMDSectionHeader.swift in Sources */,
+				7E8E1A211FC7EC4700B06325 /* DeviceMessageOtherCell.swift in Sources */,
 				7E58F2781FA31C490022D0CF /* MyPagecontrol.swift in Sources */,
 				7E58F26F1FA2FE170022D0CF /* FacilityVC.swift in Sources */,
 				7E5229091FB2AE4100B3B06C /* RecommendSubDetailVC.swift in Sources */,
+				7E8D3EC41FC9115F001A1F65 /* HelpSectionHeaderView.swift in Sources */,
 				7E3E7AE31FB3FA330041CDA2 /* AboutAppVC.swift in Sources */,
 				7E58F27A1FA335E60022D0CF /* PlayerVC.swift in Sources */,
 				7E05BE501F9AED9500D2717C /* CoreDataDB.swift in Sources */,
@@ -542,9 +594,11 @@
 				7E717B931FA6FE33009F6935 /* ChatCell.swift in Sources */,
 				7E0EF1711F9AD62800D0C625 /* Cool.xcdatamodeld in Sources */,
 				7E5778FE1FB1A10900272F99 /* BindingFirstVC.swift in Sources */,
+				7E8E1A171FC7B4AE00B06325 /* FacilityCollectionViewCell.swift in Sources */,
 				7E3E7AE11FB3EFC90041CDA2 /* MeMessageListCell.swift in Sources */,
 				7E35E74C1F9D862A00935E83 /* LoginVC.swift in Sources */,
 				7E5779061FB1A27E00272F99 /* BindingFourth2VC.swift in Sources */,
+				7E8E1A291FC80C6100B06325 /* HelpVC.swift in Sources */,
 				7E4DF0ED1FA848F20041A997 /* MeCell.swift in Sources */,
 				7E35E75E1F9DE07E00935E83 /* UIImage+Category.swift in Sources */,
 				7E35E74A1F9D85EC00935E83 /* BaseDefine.swift in Sources */,
@@ -556,14 +610,20 @@
 				7E717B8A1FA6C227009F6935 /* RMDClassicCell.swift in Sources */,
 				7E0EF16B1F9AD62800D0C625 /* ViewController.swift in Sources */,
 				7E35E7601F9DE28000935E83 /* UIView+Category.swift in Sources */,
+				7E8E1A271FC80C2E00B06325 /* BabyMessageVC.swift in Sources */,
 				7E3E7ADF1FB3EF990041CDA2 /* MeMessageHeaderCell.swift in Sources */,
 				7E35E7531F9DBBBF00935E83 /* UIColor+Category.swift in Sources */,
 				7E35E7451F9D836B00935E83 /* BaseNavigationViewController.swift in Sources */,
+				7E8E1A251FC7EE7800B06325 /* DeviceMessageFootCell.swift in Sources */,
+				7E8E1A311FC81B0900B06325 /* HelpCell.swift in Sources */,
 				7E539FCE1F9EE36100FF82B6 /* HistoryVC.swift in Sources */,
 				7E539FCC1F9EE34F00FF82B6 /* CollectVC.swift in Sources */,
 				7E5779001FB1A15500272F99 /* BindingSecondVC.swift in Sources */,
+				7E8E1A231FC7ED5600B06325 /* DeviceStatusCell.swift in Sources */,
+				7E8E1A1F1FC7EBD800B06325 /* DeviceMessageHeaderCell.swift in Sources */,
 				7E35E74E1F9D8FAB00935E83 /* RegisterVC.swift in Sources */,
 				7E539FD01F9EE4EB00FF82B6 /* SearchVC.swift in Sources */,
+				7E8E1A2F1FC8152400B06325 /* BabyMessageCell.swift in Sources */,
 				7E717B8E1FA6C286009F6935 /* RMDHotCell.swift in Sources */,
 				7E3E7AE51FB44E5C0041CDA2 /* LHUIAlertController.swift in Sources */,
 				7E5779081FB1A29000272F99 /* BindingFourth3VC.swift in Sources */,

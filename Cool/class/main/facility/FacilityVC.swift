@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FacilityVC: UIViewController {
+class FacilityVC: BaseViewController {
 
     @IBOutlet weak var CollectionTop: NSLayoutConstraint!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -31,6 +31,8 @@ class FacilityVC: UIViewController {
             currentShowImage: UIImage.init(named: "icon_scroll2")!,
             pageIndicatorShowImage: UIImage.init(named: "icon_scroll1")!)
         self.scrolleBgView.addSubview(self.pageControl!)
+        isNaviBackShow = false
+        isMarkShow = false
         // Do any additional setup after loading the view.
     }
 
@@ -40,6 +42,7 @@ class FacilityVC: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        self.navigationController?.isNavigationBarHidden = false
         segue.destination.hidesBottomBarWhenPushed = true
     }
     
@@ -79,7 +82,11 @@ extension FacilityVC : UICollectionViewDelegate,UICollectionViewDataSource,UICol
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell  = collectionView.dequeueReusableCell(withReuseIdentifier: "facilityCell", for: indexPath)
+        let cell : FacilityCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "facilityCell", for: indexPath) as! FacilityCollectionViewCell
+        cell.tag = indexPath.row
+        cell.touchBlock = {(index)in
+            self.performSegue(withIdentifier: "DeviceMessageVC", sender: nil)
+        }
         return cell
     }
 }

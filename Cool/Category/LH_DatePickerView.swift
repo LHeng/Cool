@@ -15,7 +15,7 @@ class LH_DatePickerView: UIView {
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var toolBar: UIToolbar!
     var dateView : UIView?
-    var _date = NSDate()
+    var date = NSDate()
    /* var date : NSDate {
         set {
             _date = newValue
@@ -25,7 +25,7 @@ class LH_DatePickerView: UIView {
             return _date
         }
     }*/
-    var _mode = UIDatePickerMode.time
+    var mode = UIDatePickerMode.time
     /*var mode : UIDatePickerMode {
         set {
             _mode = newValue
@@ -112,8 +112,8 @@ class LH_DatePickerView: UIView {
         self.backgroundColor = UIColor.init(red: 0/255.0, green:0/255.0, blue:0/255.0, alpha:0.3)
         let tap : UITapGestureRecognizer = UITapGestureRecognizer.init(target: self, action: #selector(dismiss))
         self.addGestureRecognizer(tap)
-        datePicker.setDate(_date as Date, animated: true)
-        datePicker.datePickerMode = _mode
+        datePicker.setDate(date as Date, animated: true)
+        datePicker.datePickerMode = mode
         UIApplication.shared.keyWindow?.addSubview(self)
         UIView.animate(withDuration: 0.35, animations: {
             self.alpha = 1.0
